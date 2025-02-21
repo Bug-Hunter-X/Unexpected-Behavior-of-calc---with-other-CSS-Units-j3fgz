@@ -1,0 +1,1 @@
+The CSS property `calc()` is not working as expected when combined with other CSS units like `em`, `rem`, `vw`, `vh`, etc. This can lead to unexpected layout issues and inconsistent rendering across different browsers.
