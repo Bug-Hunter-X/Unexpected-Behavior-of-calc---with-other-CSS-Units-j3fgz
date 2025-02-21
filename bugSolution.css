@@ -1,0 +1,19 @@
+/* bugSolution.css */
+
+/* Instead of relying solely on calc(), use a more explicit approach:
+   Determine the viewport width or the size of the parent element explicitly and use it in the calculations.
+   You might also need to use JavaScript for more dynamic sizing if the values are not available when the CSS is loaded.
+*/
+
+.container {
+  width: 50vw; /* or other appropriate value */
+  /* ...rest of the styles... */
+}
+
+.element {
+  width: 50%; /* Example: using percentage for width */
+  max-width: calc(50vw - 20px); /*Example: Using calc after assigning a base*/
+  /* ...rest of the styles... */
+}
+
+/* Ensure units are clearly defined and consistent throughout the calculation. */
